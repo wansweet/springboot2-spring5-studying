@@ -3,18 +3,24 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator/aop-annotationAwareAspectJAutoProxyCreator1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/aop-annotationAwareAspectJAutoProxyCreator1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aop-beanNameAutoProxyCreator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aop-cglib" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator-1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aop-defaultAdvisorAutoProxyCreator-2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aop-defaultPointcutAdvisor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aop-dynamicProxyBeanDefinition" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aop-proxyFactory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aop-regexpMethodPointcutAdvisor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/aop-staticMethodPointcutAdvisor" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/aop-staticMethodPointcutAdvisor/ioc-circularDependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aop-staticMethodPointcutAdvisor2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/custom-conditional" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/custom-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/filterChain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ioc-beanPostProcessor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ioc-circularDependencies" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ioc-importBeanDefinitionRegistrar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study-EnableConfigurationProperties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/transaction" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

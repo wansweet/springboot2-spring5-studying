@@ -12,11 +12,41 @@
         <module name="aop-defaultAdvisorAutoProxyCreator-1" />
         <module name="aop-defaultAdvisorAutoProxyCreator-2" />
         <module name="aop-defaultPointcutAdvisor" />
+        <module name="aop-dynamicProxyBeanDefinition" />
+        <module name="aop-regexpMethodPointcutAdvisor" />
+        <module name="aop-staticMethodPointcutAdvisor2" />
+        <module name="custom-conditional" />
+        <module name="custom-starter" />
+        <module name="filterChain" />
+        <module name="ioc-beanPostProcessor" />
         <module name="ioc-circularDependencies" />
+        <module name="ioc-importBeanDefinitionRegistrar" />
+        <module name="study-EnableConfigurationProperties" />
+        <module name="transaction" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="aop-annotationAwareAspectJAutoProxyCreator" target="1.8" />
       <module name="aop-annotationAwareAspectJAutoProxyCreator1" target="1.8" />
+      <module name="aop-beanNameAutoProxyCreator" target="1.8" />
+      <module name="aop-cglib" target="1.8" />
+      <module name="aop-defaultAdvisorAutoProxyCreator-1" target="1.8" />
+      <module name="aop-defaultAdvisorAutoProxyCreator-2" target="1.8" />
+      <module name="aop-defaultPointcutAdvisor" target="1.8" />
+      <module name="aop-dynamicProxyBeanDefinition" target="1.8" />
+      <module name="aop-proxyFactory" target="1.8" />
+      <module name="aop-regexpMethodPointcutAdvisor" target="1.8" />
+      <module name="aop-staticMethodPointcutAdvisor" target="1.8" />
+      <module name="aop-staticMethodPointcutAdvisor2" target="1.8" />
+      <module name="custom-conditional" target="1.8" />
+      <module name="custom-starter" target="1.8" />
+      <module name="filterChain" target="1.8" />
+      <module name="ioc-beanPostProcessor" target="1.8" />
+      <module name="ioc-circularDependencies" target="1.8" />
+      <module name="ioc-importBeanDefinitionRegistrar" target="1.8" />
+      <module name="springboot2-spring5-studying" target="1.8" />
+      <module name="study-EnableConfigurationProperties" target="1.8" />
+      <module name="transaction" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

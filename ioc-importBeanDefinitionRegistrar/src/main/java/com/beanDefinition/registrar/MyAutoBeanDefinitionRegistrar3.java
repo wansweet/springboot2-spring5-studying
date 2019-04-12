@@ -57,13 +57,14 @@ public class MyAutoBeanDefinitionRegistrar3 implements ImportBeanDefinitionRegis
 
             // FeignClient 重写了 ClassPathScanningCandidateComponentProvider 匹配逻辑
             @Override
-            protected boolean isCandidateComponent(
-                    AnnotatedBeanDefinition beanDefinition) {
+            protected boolean isCandidateComponent(AnnotatedBeanDefinition beanDefinition) {
                 if (beanDefinition.getMetadata().isIndependent()) {
                     // TODO until SPR-11711 will be resolved
                     // 判断接口是否继承了 Annotation注解
-                    if (beanDefinition.getMetadata().isInterface() && beanDefinition.getMetadata()
-                            .getInterfaceNames().length == 1 && Annotation.class.getName().equals(beanDefinition.getMetadata().getInterfaceNames()[0])) {
+                    if (beanDefinition.getMetadata().isInterface()
+                            && beanDefinition.getMetadata().getInterfaceNames().length == 1
+                            && Annotation.class.getName().equals(
+                                    beanDefinition.getMetadata().getInterfaceNames()[0])) {
                         try {
                             Class<?> target = ClassUtils.forName(beanDefinition.getMetadata().getClassName(),
                                     MyAutoBeanDefinitionRegistrar3.this.classLoader);

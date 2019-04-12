@@ -24,6 +24,10 @@
         <module>transaction</module>
         <module>ioc-importBeanDefinitionRegistrar</module>
         <module>ioc-beanPostProcessor</module>
+        <module>custom-starter</module>
+        <module>study-EnableConfigurationProperties</module>
+        <module>custom-conditional</module>
+        <module>aop-dynamicProxyBeanDefinition</module>
     </modules>
 
     <parent>

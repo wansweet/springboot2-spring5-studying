@@ -37,6 +37,7 @@ public class MyApplicationContextInitializer implements ApplicationContextInitia
                 return null;
             }
 
+            @Override
             public Object getEarlyBeanReference(Object bean, String beanName) throws BeansException {
                 return bean;
             }

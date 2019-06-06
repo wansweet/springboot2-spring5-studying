@@ -23,11 +23,13 @@ public class MyRegistryBean implements ApplicationContextAware, BeanDefinitionRe
     public void postProcessBeanDefinitionRegistry(BeanDefinitionRegistry beanDefinitionRegistry) throws BeansException {
         // 需要被代理的接口
         Class<TestService> cls = TestService.class;
+
         BeanDefinitionBuilder builder = BeanDefinitionBuilder.genericBeanDefinition(cls);
         GenericBeanDefinition definition = (GenericBeanDefinition) builder.getRawBeanDefinition();
         definition.getPropertyValues().add("interfaceClass", definition.getBeanClassName());
         definition.setBeanClass(MyProxyFactory.class);
         definition.setAutowireMode(GenericBeanDefinition.AUTOWIRE_BY_TYPE);
+
         // 注册bean名,一般为类名首字母小写
         beanDefinitionRegistry.registerBeanDefinition("testService", definition);
     }

@@ -5,12 +5,15 @@ import org.springframework.beans.factory.FactoryBean;
 public class MyProxyFactory<T> implements FactoryBean<T> {
 
     private Class<T> interfaceClass;
+
     public Class<T> getInterfaceClass() {
         return interfaceClass;
     }
+
     public void setInterfaceClass(Class<T> interfaceClass) {
         this.interfaceClass = interfaceClass;
     }
+
     @Override
     public T getObject() throws Exception {
         return (T) new MyProxy().bind(interfaceClass);

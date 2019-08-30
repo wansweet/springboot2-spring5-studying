@@ -12,3 +12,4 @@
 logging.fileDir*
 /target/
 /bin/
+/.idea/workspace.xml

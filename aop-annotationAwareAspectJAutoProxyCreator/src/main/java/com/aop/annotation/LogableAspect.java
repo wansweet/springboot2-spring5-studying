@@ -17,11 +17,11 @@ public class LogableAspect {
     @Around("aspect()")
     public Object doAround(ProceedingJoinPoint point) throws Throwable {
 
-        System.out.println("doAround before...");
+        System.out.println("doAround before...Logable");
 
         Object returnValue =  point.proceed(point.getArgs());
 
-        System.out.println("doAround after...");
+        System.out.println("doAround after...Logable");
         return returnValue;
     }
 }
